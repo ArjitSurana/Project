@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Authentication</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-image: url("889599-Lipstick-Cosmetics-Gray-background-Paintbrush-Earrings.png");
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+           
+        }
+        
+        
+        .container {
+            background: transparent;
+            border-radius: 10px;
+            box-shadow: 10px 10px 20px rgba(255, 255, 255, 0.3);
+            padding: 20px;
+            width: 900px;
+            text-align: right;
+            transition: transform 0.3s ease-in-out;
+            overflow:auto ;
+            border: 2px solid white;
+            backdrop-filter: blur(4px);
+        }
+        
+        .form-group{
+            font-size: 23px;
+            border-bottom: 2px solid rgb(255, 255, 255);
+            
+        }
+        .form-group input{
+            padding-top: 30px;
+            height: 30px;
+            background: transparent;
+            border:none;
+            outline: none;
+            font-size:20px;;
+           
+            color: rgb(255, 255, 255);
+        }
+
+        .h1{
+            color: #ffffff;
+        }
+        
+        .h2 {
+            color: #ffffff;
+            margin-bottom: 20px;
+        }
+        .form-group {
+            margin-bottom:20px;
+            text-align:left;
+        }
+        label {
+            display: block;
+           
+            margin-bottom: 3px;
+            color: #ffffff;
+        }
+        button {
+            padding: 12px 20px;
+            background-color: #ffffff;
+            color: #000000;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s;
+            text-align: left;
+        }
+        button:hover {
+            background-color: #a2abb6;
+        }
+        
+        
+        .other{
+            float:right;
+            text-align: center;
+            width: 40%;
+            
+        }
+        .image{
+            text-align: left;
+            float: left;
+            flood-color: #a2abb6;
+            filter: brightness(70%);
+        
+            
+        }
+
+        .back{
+            text-align: center;
+            margin-top: 220px;
+            color: #ffffff;
+        }
+        .other{
+            color: #ffffff;
+            
+        }
+       
+    </style>
+</head>
+<body>
+    <div class="container">
+         <div class="image">
+        <img src="https://img.freepik.com/free-vector/forgot-password-concept-illustration_114360-1095.jpg?w=2000" width="500px" height="520px">
+         </div>
+         <div class="other">
+            <h1>Forgot Password?</h1>
+            <br><br>
+            <form id="loginForm">
+                <div class="form-group">
+                    <label for="username">Enter Register Email/Mobile No.</label>
+                    <input type="text" id="username" name="username" required>
+                </div>
+                <br>
+                    <div class="Button1">
+                    <button type="submit">Send OTP</button>
+                    </div>
+            </form>
+                        <div class="back">
+                       <p style="color: #ffffff;"> <a href="http://127.0.0.1:5500/LOGIN/First.html">Back to the Login page</a></p>
+                        </div>
+        </div> 
+    </div>    
+</body>
+</html>
