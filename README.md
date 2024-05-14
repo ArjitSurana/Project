@@ -23,7 +23,8 @@ To get started with the project, follow these steps:
 
 Clone the repository:
 Copy code
-git clone https://github.com/yourusername/login-authentication-project.git
+git clone 
+https://github.com/ArjitSurana/Project.git
 
 Install dependencies:
 Copy code
