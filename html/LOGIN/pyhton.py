@@ -8,7 +8,7 @@ def time():
 
 root = tk.Tk()
 root.title("Digital Clock")
-root.geometry("400x200")
+root.geometry("600x1200")
 root.resizable(False, False)
 
 lbl = tk.Label(root, font=('calibri', 40, 'bold'), background='black', foreground='white')
