@@ -1,0 +1,206 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <style>
+        .products{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .product{
+            width:430px;
+            height: 530px;
+            margin: 10px;
+            padding: 10px;
+            border: 1px solid black;
+            background-color: rgb(255, 255, 255);
+            text-align: center;
+            margin-top:50px;
+            cursor: pointer;
+            margin-left:20px;
+            margin-right:20PX;
+            transition: 1s;
+        }
+
+        .product:hover{
+            transform: scale(1.05);
+            z-index: 2;
+        }
+
+        
+        
+        .product img{
+            max-width: 100%;
+        }
+        button{
+            background-color: rgb(193, 193, 193);
+            
+            cursor: pointer;
+            padding: 8px 16px;
+            margin-top: 10px;
+            border:none;
+        }
+        section{
+            background-image: url("889599-Lipstick-Cosmetics-Gray-background-Paintbrush-Earrings.png");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            overflow: auto;
+        }
+        .top-container{
+            display: flex;
+            align-items: flex-start;
+            justify-content:space-between;
+            background-image: url("3103311.jpg");
+        }
+        .logo img{
+            max-width: 100%;
+            padding: 10px; ;
+        
+        }
+       
+        .navbar a {display: inline-flex;
+            margin-top:10px;
+            margin-right:20px; 
+            color:black;
+            text-decoration: none;
+            font-size:25px;
+            padding: 10px;
+            
+        }
+    
+        .search-box{
+            
+            margin-left:100px;
+            margin-top:8px;
+            
+           }
+        .search-box input[type="search"]{
+            width: 300px;
+            height: 40px;
+            font-size:20px;
+            background: transparent;
+            border-top:none;
+            border-left: none;
+            border-right: none;
+        }
+
+        .one{
+            float: left;
+        
+        }
+
+        .two{
+            float: right;
+        }
+
+        .footer{
+            display: flex;
+            align-items: flex-start;
+            justify-content:space-around;
+            overflow: auto;
+            background-color: rgb(11, 0, 0); 
+            color: rgb(163, 163, 163);
+            padding: 20px; 
+            
+        }
+        .third{
+            text-align: center;
+        }
+        
+    </style>
+    
+    <body>
+<section>
+    <div class="top-container">
+                <div class="logo">
+                   <img src="Daco_632683.png" width="350" height="110">
+                </div>
+            <nav class="navbar" >
+                <ion-icon name="phone-portrait-outline"></ion-icon>
+                 <A href="#"><Strong>DOWNLOAD APP</Strong></A>
+                 <ion-icon name="caret-down-outline"></ion-icon>
+                 <A href="#"><strong>BROWSE</strong></A>
+                 <ion-icon name="storefront-outline"></ion-icon>
+                 <A href="#"><Strong>STORE & EVENTS</Strong></A>
+                 <ion-icon name="exit-outline"></ion-icon>
+                 <A href="http://127.0.0.1:5500/LOGIN/First.html"><Strong>LOG OUT</Strong></A>
+                    <div class="search-box">
+                      <form action="" class="search-box">
+                       <input type="search" placeholder="Search here" id="search-box">
+                       <label for="search-box" class="fas fa-search"></label>
+                      </form>  
+                    </div> 
+            </nav>
+   </div>
+   <div class="products">
+            <div class="product">
+               <img src="https://www.clinique.in/media/export/cms/products/1200x1500/cl_sku_KWW201_1200x1500_0.png" height="400" width="350">
+                <h1>  Moisture Surge  </h1>
+                
+                <BUtton>Add to Cart</BUtton>
+            </div>
+            <DIV CLASS="product">
+               <img src="https://www.clinique.in/media/export/cms/products/1200x1500/cl_sku_ZTPH09_1200x1500_0.png" height="400" width="350">
+               <h1>  Lip Colour  </h1>
+               <BUTTon>Add to Cart</BUTTon>
+            </DIV>
+            <div class="product">
+                <img src="https://www.clinique.in/media/export/cms/products/1200x1500/cl_sku_6NH701_1200x1500_0.png"  height="400" width="350">
+                <h1>  Sunscream  </h1>
+                <BUTton>Add to Cart</BUTton>
+            </div>
+            <DIV class="product">
+                <img src="https://www.clinique.in/media/export/cms/products/1200x1500/cl_sku_V6XP01_1200x1500_0.png"  height="400" width="350">
+                <h1>  Cleansing Balm  </h1>
+                <BUTTon>Add to Cart</BUTTon>
+            </DIV>
+            <DIV class="product">
+                <img src="https://www.clinique.in/media/export/cms/products/1200x1500/cl_sku_7WJ801_1200x1500_0.png"  height="400" width="350">
+                <h1>  Clinical Clearing Gel  </h1>
+                <BUTTon>Add to Cart</BUTTon>
+            </DIV>
+            <DIV class="product">
+                <IMG SRC="https://www.clinique.in/media/export/cms/products/1200x1500/cl_sku_KY1927_1200x1500_0.png"  height="400" width="350">
+                <H1>  WASH GEL  </H1>
+                <BUTton>Add to Cart</BUTton>
+            </DIV>
+            <button> Show More </BUTTon>
+                
+   </div>
+
+</section>
+<hr size="5px">
+            <div class="footer">
+                <div class="one">
+                    <h1>About Us:</h1>
+            <h2>Clinique Cosmetics</h2>
+            <p><i>Contact Us: +91 5465514</i></p>
+                </div>
+            
+            <div class="third">
+            <h2>Visit Us:</h2>
+            <p><i>Industrial Area Sector 51</i></p>
+            <p><i>Gandhi Nagar, New Delhi</i></p>
+            <p><i>India</i></p>
+                </div>
+                <div class="two">
+                    <p><i>@ISAA Certified</i></p>
+                    <p><i>Copyright © 2023 Clinique</i></p>
+                    <p><i>Privacy Policy</i></p>
+                    <p><i>Shipping Address</i></p>
+                    <p><i>Return Policy</i></p>
+                    <p><i>Help</i></p>
+                </div>
+            </div>
+                
+    
+    
+            <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+            <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>   
+</body>
+</html>
